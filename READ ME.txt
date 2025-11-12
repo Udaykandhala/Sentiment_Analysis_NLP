@@ -1,0 +1,41 @@
+Course: ECS763P/U - Natural Language Processing  
+Coursework 1  
+
+Student Name: Ananta Venkata Uday Kiran Kandala  
+Student ID: 250843570  
+
+------------------------------------------
+Files Included
+------------------------------------------
+1. NLP_Assignment_Q1_to_Q3.ipynb  
+   a) Contains implementation of the baseline model, 10-fold cross-validation, and error analysis.  
+   b) Covers Questions 1 to 3.  
+
+2. NLP_Assignment_Q4.ipynb  
+   a) Includes all model optimization work: preprocessing improvements, TF-IDF representation, 
+      hyperparameter tuning, and the addition of stylistic + lexicon features.  
+   b) Covers Question 4.  
+
+3. sentiment-dataset.tsv  
+   Dataset used for training and testing the sentiment classifier.  
+
+4. positive-words.txt / negative-words.txt  
+   External opinion lexicons used for sentiment-based feature extraction.  
+
+5. Coursework_Report.pdf  
+   Two-page written report summarizing methods, experiments, and final model results.  
+
+------------------------------------------
+Instructions to Run
+------------------------------------------
+1. Open either notebook in Jupyter Notebook or JupyterLab.  
+2. Ensure the dataset and lexicon files are in the same directory as the notebooks.  
+3. Select **Kernel → Restart & Run All** to execute the notebook from start to finish.  
+4. All outputs (F1 scores, tables, plots) will be displayed directly in the notebook.  
+
+------------------------------------------
+Notes
+------------------------------------------
+- The notebooks are self contained and will automatically download any missing NLTK resources.  
+- The final model (in Q4) achieves an F1 score of approximately 0.863, above the 0.85 baseline.  
+
